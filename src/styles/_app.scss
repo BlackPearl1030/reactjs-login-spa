@@ -1,0 +1,9 @@
+.logo,
+.title::before {
+  content: '';
+  @include bgContain(top left);
+  background-image: url('../images/test-logo.png');
+  height: 55px;
+  margin-right: 14px;
+  width: 55px;
+}

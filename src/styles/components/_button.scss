@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 25px;
+    border: 1px solid transparent;
+    color: $text-white-color;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    outline: none;
+    padding: 20px 25px;
+    transition: $medium;
+    width: 100%;
+  background-image: none;
+    &.btn-green {
+      background-color: $btn-bg-color;
+      &:hover {
+        background: $btn-bg-hover-color;
+      }
+    }
+}

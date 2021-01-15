@@ -1,0 +1,28 @@
+header {
+  align-items: center;
+  box-shadow: 0 0 10px 0 $shadow-black-opacity10;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  @media (max-width: $sm) {
+    box-shadow: none;
+  }
+  .logout {
+    cursor: pointer;
+    .title {
+      align-items: center;
+      display: flex;
+      &::before {
+        content: '';
+        @include bgContain(top left);
+        background-image: url('../../images/logout.svg');
+        height: 16px;
+        margin-right: 14px;
+        width: 16px;
+      }
+      &:hover {
+        color: $btn-bg-hover-color;
+      }
+    }
+  }
+}

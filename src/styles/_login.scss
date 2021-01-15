@@ -1,0 +1,34 @@
+.login-block {
+  align-items: center;
+  background-color: $bg-white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+  .wrapper {
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 $shadow-black-opacity10;
+    margin: 0 20px;
+    max-width: 380px;
+    padding: 30px 15px;
+    width: 100%;
+
+    .title {
+      align-items: center;
+      display: flex;
+    }
+
+    .form {
+      .btn {
+        &.btn-green {
+          margin-top: 20px;
+        }
+      }
+
+      .password-wrap {
+        position: relative;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<title>Logout</title>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-1463 -50)" fill="#2F3254">
+<g transform="translate(1462 45)">
+<path d="m16 5c0.60002 0 0.99999 0.40003 0.99999 1v14c0 0.59992-0.39997 0.99993-0.99999 0.99993h-9.0001c-0.59983 0-0.9998-0.40001-0.9998-0.99993v-3h2v2h6.9999v-12h-6.9999v2h-2v-3c0-0.6 0.39997-1 0.9998-1h9.0001zm-11 4.0001v3h5.9999v2h-5.9999v3l-3.9999-4 3.9999-4z"/>
+</g>
+</g>
+</g>
+</svg>

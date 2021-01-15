@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  color: $text-main-color;
+  font-family: $font-main;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 22px;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
