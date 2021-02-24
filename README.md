@@ -1,5 +1,5 @@
 ## App
-Simple React single page application with implemented login/logout functionality.
+Simple React single page application with implemented login/logout functionality. Live preview is available [here[(https://reactjs-login.vercel.app/login).
 
 - Browser storage is used to carry tokens.
 - Servers list is sortable `name` and `distance`
